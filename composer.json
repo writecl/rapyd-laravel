@@ -1,0 +1,43 @@
+{
+    "name": "writecl/rapyd",
+    "description": "crud widgets for laravel, to make an admin in few lines of code",
+    "homepage": "https://github.com/writecl/rapyd-laravel",
+    "keywords": ["laravel", "crud", "rapyd", "administrator", "admin", "backend", "datatable", "form"],
+    "authors": [
+        {
+            "name": "Ricardo Valenzuela",
+            "email": "rvalenzuelaferrada@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "^6.0",
+        "laravelcollective/html": "^6.1",
+        "intervention/image": "2.4.2",
+        "writecl/burp": "*"
+    },
+    "suggest": {
+        "baum/baum": "Allows to use the DataTree widget"
+    },
+    "autoload": {
+        "classmap": [
+            "migrations"
+        ],
+        "psr-4": {
+            "Writecl\\Rapyd\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Writecl\\Rapyd\\RapydServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "laravel/framework": "^6.0",
+        "orchestra/testbench": "3.6.*",
+        "phpunit/phpunit": "7.*",
+        "php-coveralls/php-coveralls": "^1.0"
+    }
+}
