@@ -4,7 +4,6 @@ namespace Writecl\Rapyd;
 
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Input;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
 use Writecl\Rapyd\Exceptions\DataSetException;

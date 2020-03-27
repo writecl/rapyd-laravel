@@ -3,7 +3,7 @@
 namespace Writecl\Rapyd\DataForm\Field;
 
 use Collective\Html\FormFacade as Form;
-use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Session;
 use MyProject\Proxies\__CG__\stdClass;
 use Writecl\Rapyd\Rapyd;

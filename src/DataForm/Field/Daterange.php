@@ -3,7 +3,7 @@
 namespace Writecl\Rapyd\DataForm\Field;
 
 use Collective\Html\FormFacade as Form;
-use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Request;
 use Writecl\Rapyd\Rapyd;
 
 class Daterange extends Date
